@@ -13,5 +13,45 @@
         <a href="./links.html">Notable Websites</a>
         <a href="./images.html">Pics and Shit</a>
     </nav>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Make a Profile</legend>
+
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+
+            <div>
+                <label for="class">Class</label>
+                <select id="class" name="bodybuilding_class">
+                    <option value="classic">Classic</option>
+                    <option value="open">Open</option>
+                    <option value="mens_physique">Men's Physique</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="bio">Bio</label>
+                <textarea id="bio" name="bio"></textarea>
+            </div>
+
+            <div>
+                <label for="terms">Above statement is true</label>
+                <input type="checkbox" id="terms" name="terms">
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+        </fieldset>
+    </form>
 </body>
 </html>
