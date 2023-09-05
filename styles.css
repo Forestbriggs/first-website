@@ -1,0 +1,35 @@
+body {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: darkgreen;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    margin-top: 0%;
+    margin-left: 20px;
+}
