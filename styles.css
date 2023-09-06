@@ -1,3 +1,5 @@
+/* Universal */
+
 body {
     margin-left: 0%;
     margin-right: 0%;
@@ -48,4 +50,19 @@ img {
 
 label {
     margin-left: 20px;
+}
+
+/* index.html*/
+
+.index_img {
+    height: auto;
+    width: 100%;
+    margin: 0%;
+}
+
+/* info.html*/
+
+li img {
+    border-radius: 100%;
+    border: 2px solid black;
 }
