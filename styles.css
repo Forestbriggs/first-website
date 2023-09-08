@@ -21,6 +21,7 @@ nav a {
     text-align: center;
     padding: 10px 14px;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav a:hover:not(.active) {
@@ -42,10 +43,12 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 p {
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 img {
@@ -55,6 +58,11 @@ img {
 
 label {
     margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /*------------*/
@@ -74,6 +82,19 @@ label {
 li img {
     border-radius: 100%;
     border: 2px solid black;
+}
+
+/*------------*/
+/* links.html */
+/*------------*/
+
+.link-img {
+    width: 100px;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
 }
 
 /*-------------*/
