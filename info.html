@@ -14,7 +14,7 @@
         <a href="./images.html">Pics and Shit</a>
     </nav>
 
-    <form action="" method="post" data-netlify="true">
+    <form action="" method="post" data-netlify="true" onsubmit="return checkForm(this);">
         <fieldset>
             <legend>Make a Profile</legend>
 
@@ -44,7 +44,7 @@
 
             <div>
                 <label for="terms">Above statement is true</label>
-                <input class="checkbox" type="checkbox" id="terms" name="terms">
+                <input class="checkbox" type="checkbox" id="terms" required name="terms">
             </div>
 
             <div>
