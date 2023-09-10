@@ -168,3 +168,23 @@ ul {
     grid-gap: 7px;
     grid-row-gap: 40px;
 }
+
+@media only screen and (max-width: 480px) {
+    nav {
+        width: auto;
+    }
+    form {
+        width: auto;
+    }
+    label {
+        display: block;
+        margin: 0;
+        text-align: left;
+        width: auto;
+    }
+    input,
+    select,
+    textarea {
+        width: 100%;
+    }
+}
