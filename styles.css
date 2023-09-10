@@ -171,7 +171,7 @@ ul {
 
 @media only screen and (max-width: 480px) {
     nav {
-        width: 99%;
+        width: auto;
     }
     form {
         width: auto;
