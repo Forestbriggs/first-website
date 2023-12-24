@@ -9,6 +9,13 @@ body {
 }
 
 nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20px;
+    position: sticky;
+    top: 0px;
+    width: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,6 +29,7 @@ nav a {
     padding: 10px 14px;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
+    width: 25%;
 }
 
 nav a:hover:not(.active) {
@@ -84,7 +92,7 @@ fieldset {
 }
 
 form {
-    margin: 0 auto;
+    margin: 250px auto;
     width: 600px;
     padding: 1em;
     border: 1px solid #CCC;
