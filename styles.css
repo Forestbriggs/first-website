@@ -180,6 +180,9 @@ ul {
     nav {
         width: auto;
     }
+    nav a {
+        font-size: 10px;
+    }
     form {
         width: auto;
     }
